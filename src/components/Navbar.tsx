@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import Image from "next/image";
 
 export function NavbarDemo() {
   return (
@@ -22,26 +23,37 @@ function Navbar({ className }: { className?: string }) {
     >
       <Menu setActive={setActive}>
         <Link href={"/"}>
-          <MenuItem setActive={setActive} active={active} item="Home">
 
-          </MenuItem> 
+          <Image
+            src="../../public/../assets/home.svg"
+            height="100"
+            width="100"
+            className="min-[320px]:h-5 w-full object-contain rounded-xl group-hover/card:shadow-xl invert"
+            alt="thumbnail"
+          />
+
         </Link>
         <Link href={"/experience"}>
           <MenuItem setActive={setActive} active={active} item="Experience">
 
-          </MenuItem> 
+          </MenuItem>
+        </Link>
+        <Link href={"#skills"}>
+          <MenuItem setActive={setActive} active={active} item="Skills">
+
+          </MenuItem>
         </Link>
         <Link href={"/projects"}>
           <MenuItem setActive={setActive} active={active} item="Projects">
 
-          </MenuItem> 
+          </MenuItem>
         </Link>
         <Link href={"/contact"}>
           <MenuItem setActive={setActive} active={active} item="Contact">
 
-          </MenuItem> 
+          </MenuItem>
         </Link>
-        
+
       </Menu>
     </div>
   );

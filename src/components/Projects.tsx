@@ -9,11 +9,11 @@ import { Cover } from "./ui/cover";
 export function ThreeDCardDemo() {
   return (
     <>
-      <div className="h-[80rem] w-full dark:bg-black">
-        <div>
+      <div className="h-full w-full dark:bg-neutral-950 flex items-center flex-col pt-20">
+        <div className="text-lg md:text-4xl">
           <Cover>My Projects</Cover>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-x-10 max-[1011px]:grid-cols-1">
           <CardContainer className="inter-var">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
               <CardItem
