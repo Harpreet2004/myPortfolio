@@ -9,7 +9,7 @@ import { Cover } from "./ui/cover";
 export function ThreeDCardDemo() {
   return (
     <>
-      <div className="h-full w-full dark:bg-neutral-950 flex items-center flex-col pt-20">
+      <div id="projects" className="h-full w-full dark:bg-neutral-950 flex items-center flex-col pt-20">
         <div className="text-lg md:text-4xl">
           <Cover>My Projects</Cover>
         </div>

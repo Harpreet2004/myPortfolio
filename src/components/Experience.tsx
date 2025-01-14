@@ -7,7 +7,7 @@ export function TimelineDemo() {
     {
       title: "Internship",
       content: (
-        <div>
+        <div className="h-full w-full">
           <p className="text-neutral-800 dark:text-blue-400 text-[2rem] md:text-4xl font-normal mb-2">
             Web Developer Intern, Goitdev technologies pvt ltd.
           </p>

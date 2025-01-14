@@ -7,7 +7,7 @@ export function GlareCardDemo() {
       <div id="skills" className="h-full py-16 w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center flex-col gap-20">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="text-lg md:text-4xl">
-          <Cover>My Skills</Cover>
+          <Cover>Technical Skills</Cover>
         </div>
         <div className="grid grid-cols-5 gap-x-20 gap-y-16 max-[1091px]:gap-x-10 max-[928px]:grid-cols-3 max-[928px]:gap-x-24 max-[678px]:grid-cols-2 max-[425px]:gap-x-10 max-[359px]:grid-cols-1">
           <GlareCard className="h-[130px] flex flex-col items-center justify-center">
