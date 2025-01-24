@@ -16,12 +16,23 @@ export function ThreeDCardDemo() {
         <div className="grid grid-cols-2 gap-x-10 max-[1011px]:grid-cols-1">
           <CardContainer className="inter-var">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+             
+              <div className="flex  items-center gap-x-5">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white"
               >
                 Scout ✨
               </CardItem>
+              <CardItem className="text-white flex gap-x-3">
+                <img className="h-6 " src="../../public/../assets/react-svg.svg" alt="" />
+                <img className="h-7 brightness-[2]" src="../../public/../assets/nodejs.svg" alt="" />
+                <img className="h-6" src="../../public/../assets/tailwindcss.svg" alt="" />
+                <img className="h-6" src="../../public/../assets/mongodb.svg" alt="" />
+                <img className="h-6" src="../../public/../assets/express.svg" alt="" />
+                <img className="h-6" src="../../public/../assets/redux.svg" alt="" />
+                </CardItem>
+              </div>
               <CardItem
                 as="p"
                 translateZ="60"
@@ -45,16 +56,17 @@ export function ThreeDCardDemo() {
                   as={Link}
                   href="https://scout-ui-2an4.onrender.com/"
                   target="__blank"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                  className="px-4 py-2 rounded-xl text-sm font-normal dark:text-white"
                 >
                   Live →
                 </CardItem>
+                
                 <CardItem
                   translateZ={20}
                   href="https://github.com/Harpreet2004/Scout"
                   target="_blank"
                   as={Link}
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-sm font-bold"
                 >
                   Github
                 </CardItem>
@@ -63,12 +75,18 @@ export function ThreeDCardDemo() {
           </CardContainer>
           <CardContainer className="inter-var">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+            <div className="flex  items-center gap-x-5">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white"
               >
                 Chai Pani ✨
               </CardItem>
+              <CardItem className="text-white flex gap-x-3">
+                <img className="h-6 " src="../../public/../assets/react-svg.svg" alt="" />
+                <img className="h-6 " src="../../public/../assets/tailwindcss.svg" alt="" />
+                </CardItem>
+              </div>
               <CardItem
                 as="p"
                 translateZ="60"
@@ -91,7 +109,7 @@ export function ThreeDCardDemo() {
                   as={Link}
                   href="https://chai-pani.vercel.app/"
                   target="__blank"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                  className="px-4 py-2 rounded-xl text-sm font-normal dark:text-white"
                 >
                   Live →
                 </CardItem>
@@ -100,7 +118,7 @@ export function ThreeDCardDemo() {
                   href="https://github.com/Harpreet2004/Chai-Pani"
                   target="_blank"
                   as={Link}
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-sm font-bold"
                 >
                   Github
                 </CardItem>
@@ -109,12 +127,19 @@ export function ThreeDCardDemo() {
           </CardContainer>
           <CardContainer className="inter-var">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+            <div className="flex  items-center gap-x-5">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white"
               >
                 Nested Comments ✨
               </CardItem>
+              <CardItem className="text-white flex gap-x-3">
+                <img className="h-6 " src="../../public/../assets/html-5.svg" alt="" />
+                <img className="h-6 " src="../../public/../assets/css-3.svg" alt="" />
+                <img className="h-6" src="../../public/../assets/javascript.svg" alt="" />
+                </CardItem>
+              </div>
               <CardItem
                 as="p"
                 translateZ="60"
@@ -137,7 +162,7 @@ export function ThreeDCardDemo() {
                   as={Link}
                   href="https://nested-comment-section.netlify.app/"
                   target="__blank"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                  className="px-4 py-2 rounded-xl text-sm font-normal dark:text-white"
                 >
                   Live →
                 </CardItem>
@@ -146,7 +171,7 @@ export function ThreeDCardDemo() {
                   href="https://github.com/Harpreet2004/Javascript-Projects/tree/main/Nested-Comment-Section"
                   target="_blank"
                   as={Link}
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-sm font-bold"
                 >
                   Github
                 </CardItem>

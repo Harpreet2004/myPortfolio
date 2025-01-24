@@ -27,7 +27,7 @@ export function GlareCardDemo() {
             <p className="text-white font-bold text-xl mt-4">Css</p>
           </GlareCard>
           <GlareCard className="h-[130px] flex flex-col items-center justify-center">
-            <img className="h-20 mt-20" src="../../public/../assets/nodejs.svg" alt="nodejs" />
+            <img className="h-20 mt-20 brightness-[2]" src="../../public/../assets/nodejs.svg" alt="nodejs" />
             <p className="text-white font-bold text-xl mt-4">Node Js</p>
           </GlareCard>
           <GlareCard className="h-[130px] flex flex-col items-center justify-center">
@@ -43,8 +43,8 @@ export function GlareCardDemo() {
             <p className="text-white font-bold text-xl mt-4">Next Js</p>
           </GlareCard>
           <GlareCard className="h-[130px] flex flex-col items-center justify-center">
-            <img className="h-20 mt-20" src="../../public/../assets/cplusplus.svg" alt="c++" />
-            <p className="text-white font-bold text-xl mt-4">C++</p>
+            <img className="h-20 mt-20" src="../../public/../assets/mongodb.svg" alt="c++" />
+            <p className="text-white font-bold text-xl mt-4">MongoDB</p>
           </GlareCard>
           <GlareCard className="h-[130px] flex flex-col items-center justify-center">
             <img className="h-20 mt-20 rounded-[12px]" src="../../public/../assets/aceternityui.svg" alt="Aceternity UI" />
