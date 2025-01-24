@@ -22,21 +22,21 @@ export function ThreeDCardDemo() {
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white"
               >
-                Scout ✨
+                Scout ✨|
               </CardItem>
-              <CardItem className="text-white flex gap-x-3">
-                <img className="h-6 " src="../../public/../assets/react-svg.svg" alt="" />
-                <img className="h-7 brightness-[2]" src="../../public/../assets/nodejs.svg" alt="" />
-                <img className="h-6" src="../../public/../assets/tailwindcss.svg" alt="" />
-                <img className="h-6" src="../../public/../assets/mongodb.svg" alt="" />
-                <img className="h-6" src="../../public/../assets/express.svg" alt="" />
-                <img className="h-6" src="../../public/../assets/redux.svg" alt="" />
+              <CardItem className="text-white grid place-items-center place-self-center grid-cols-6 gap-x-3 max-[350px]:grid-cols-3 max-[350px]:gap-x-6 max-[350px]:gap-y-2">
+                <img className="h-6 " src="../../public/../assets/react-svg.svg" alt="tech-stack" />
+                <img className="h-7 brightness-[2]" src="../../public/../assets/nodejs.svg" alt="tech-stack" />
+                <img className="h-6" src="../../public/../assets/tailwindcss.svg" alt="tech-stack" />
+                <img className="h-6" src="../../public/../assets/mongodb.svg" alt="tech-stack" />
+                <img className="h-6" src="../../public/../assets/express.svg" alt="tech-stack" />
+                <img className="h-6" src="../../public/../assets/redux.svg" alt="tech-stack" />
                 </CardItem>
               </div>
               <CardItem
                 as="p"
                 translateZ="60"
-                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 max-[350px]:mt-5"
               >
                 This MERN stack-based job-searching platform offers newsletters, providing users with tailored job
                 updates in their preferred niche.
@@ -80,11 +80,11 @@ export function ThreeDCardDemo() {
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white"
               >
-                Chai Pani ✨
+                Chai Pani ✨|
               </CardItem>
               <CardItem className="text-white flex gap-x-3">
-                <img className="h-6 " src="../../public/../assets/react-svg.svg" alt="" />
-                <img className="h-6 " src="../../public/../assets/tailwindcss.svg" alt="" />
+                <img className="h-6 " src="../../public/../assets/react-svg.svg" alt="tech-stack" />
+                <img className="h-6 " src="../../public/../assets/tailwindcss.svg" alt="tech-stack" />
                 </CardItem>
               </div>
               <CardItem
@@ -127,17 +127,17 @@ export function ThreeDCardDemo() {
           </CardContainer>
           <CardContainer className="inter-var">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
-            <div className="flex  items-center gap-x-5">
+            <div className="flex  items-center gap-x-5  max-[343px]:gap-x-3">
               <CardItem
                 translateZ="50"
-                className="text-xl font-bold text-neutral-600 dark:text-white"
+                className="text-xl font-bold text-neutral-600 dark:text-white whitespace-break-spaces"
               >
-                Nested Comments ✨
+                Nested Comments ✨|
               </CardItem>
               <CardItem className="text-white flex gap-x-3">
-                <img className="h-6 " src="../../public/../assets/html-5.svg" alt="" />
-                <img className="h-6 " src="../../public/../assets/css-3.svg" alt="" />
-                <img className="h-6" src="../../public/../assets/javascript.svg" alt="" />
+                <img className="h-6 " src="../../public/../assets/html-5.svg" alt="tech-stack" />
+                <img className="h-6 " src="../../public/../assets/css-3.svg" alt="tech-stack" />
+                <img className="h-6" src="../../public/../assets/javascript.svg" alt="tech-stack" />
                 </CardItem>
               </div>
               <CardItem

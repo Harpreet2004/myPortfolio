@@ -50,6 +50,10 @@ export function GlareCardDemo() {
             <img className="h-20 mt-20 rounded-[12px]" src="../../public/../assets/aceternityui.svg" alt="Aceternity UI" />
             <p className="text-white font-bold text-xl mt-4">Aceternity UI</p>
           </GlareCard>
+          <GlareCard className="h-[130px] flex flex-col items-center justify-center">
+            <img className="h-20 mt-20 rounded-[12px]" src="../../public/../assets/redux.svg" alt="Aceternity UI" />
+            <p className="text-white font-bold text-xl mt-4">Redux Toolkit</p>
+          </GlareCard>
         </div>
       </div>
     </>

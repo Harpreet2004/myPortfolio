@@ -36,7 +36,7 @@ export const TypewriterEffect = ({
           width: "fit-content",
         },
         {
-          duration: 0.3,
+          duration: 0.1,
           delay: stagger(0.1),
           ease: "easeInOut",
         }
@@ -156,7 +156,7 @@ export const TypewriterEffectSmooth = ({
         }}
       >
         <div
-          className="text-xs sm:text-base md:text-xl lg:text:3xl xl:text-5xl font-bold"
+          className="text-xl sm:text-2xl md:text-3xl lg:text:4xl xl:text-5xl font-bold"
           style={{
             whiteSpace: "nowrap",
           }}
